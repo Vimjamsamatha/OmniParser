@@ -1,7 +1,7 @@
 import torch
 from ultralytics.nn.tasks import DetectionModel
 from safetensors.torch import load_file
-
+// iam here to learn about comit conflicts
 tensor_dict = load_file("weights/icon_detect/model.safetensors")
 
 model = DetectionModel('weights/icon_detect/model.yaml')
